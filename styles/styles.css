@@ -349,7 +349,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width:678px){
+@media screen and (min-width: 300px) and (max-width:678px){
     .cabecalho{
         height: 100px;
     }
@@ -362,7 +362,7 @@
         height: 150px ;
     }
     .manutencao{
-        max-width: 360px;
+        max-width: 320px;
     }
     .manuText{
         padding-left: 10px;
@@ -370,12 +370,13 @@
     .manutencao h2 {
         justify-content: center;
         background-color: #fff;
+        padding: 0px 0px;
     }
     .equipamentos_inf, .equipamentos_sup{
-        max-width: 350px;
+        max-width: 320px;
     }
     .equipamentos_sup p, .equipamentos_inf p {
-        width: 350px;
+        width: 320px;
         display: block;
         margin-top: 10px;
     }
